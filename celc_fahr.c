@@ -1,3 +1,7 @@
+// program wypisujący odpowiednik temperatury w stopniach celsjusza
+// dla temperatury w stopniach fahrenheita w skokach co 20 stopni
+// zastosowanie liczb całkowitych dzięki zmiennej "int"
+ 
 #include <stdio.h>
 
 int main()
@@ -7,7 +11,7 @@ int lower, upper, step;
 
 lower = 0;
 upper = 300;
-step = 20;
+step = 15;
 
 fahr = lower;
 
